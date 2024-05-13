@@ -9,7 +9,12 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
-  return <div className="overflow-hidden"></div>;
+  return (
+    <div className="overflow-hidden">
+      <Hero />
+      <div className="h-[2000px]"></div>
+    </div>
+  );
 }
 
 export default App;

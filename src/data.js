@@ -1,10 +1,22 @@
 // import icons
-import { BsCheck, BsChevronRight } from "react-icons/bs";
+// import { BsCheck, BsChevronRight } from "react-icons/bs";
 
 // import images
 import CourseImage1 from "../src/assets/img/courses/course-1.png";
 import CourseImage2 from "../src/assets/img/courses/course-2.png";
 import CourseImage3 from "../src/assets/img/courses/course-3.png";
+
+import HeroImage from "../src/assets/img/hero/guy.png";
+
+export const heroData = {
+  description:
+    " Yoga is a way of life, rather than a chore. Counteract the stresses of modern life by becoming more mindful and compassionate.",
+  title1: "Yoga to",
+  title2: "Realese Stress",
+  btn1: "Get Started",
+  btn2: "Learn more",
+  image: HeroImage,
+};
 
 export const navigation = [
   {
@@ -86,20 +98,20 @@ export const pricing = [
     price: "$15.",
     list: [
       {
-        icon: <BsCheck />,
+        // icon: <BsCheck />,
         name: "Pay as you go",
       },
       {
-        icon: <BsCheck />,
+        // icon: <BsCheck />,
         name: "Perfect for non-residence",
       },
       {
-        icon: <BsCheck />,
+        // icon: <BsCheck />,
         name: "Acces to all classes",
       },
     ],
     buttonText: "Book now",
-    buttonIcon: <BsChevronRight />,
+    // buttonIcon: <BsChevronRight />,
     delay: "600",
   },
   {
@@ -107,24 +119,24 @@ export const pricing = [
     price: "$60.",
     list: [
       {
-        icon: <BsCheck />,
+        // icon: <BsCheck />,
         name: "Pay as you go",
       },
       {
-        icon: <BsCheck />,
+        // icon: <BsCheck />,
         name: "Perfect for non-residence",
       },
       {
-        icon: <BsCheck />,
+        // icon: <BsCheck />,
         name: "Acces to all classes",
       },
       {
-        icon: <BsCheck />,
+        // icon: <BsCheck />,
         name: "Acces to all mentors",
       },
     ],
     buttonText: "Book now",
-    buttonIcon: <BsChevronRight />,
+    // buttonIcon: <BsChevronRight />,
     delay: "800",
   },
   {
@@ -132,24 +144,24 @@ export const pricing = [
     price: "$150.",
     list: [
       {
-        icon: <BsCheck />,
+        // icon: <BsCheck />,
         name: "Pay as you go",
       },
       {
-        icon: <BsCheck />,
+        // icon: <BsCheck />,
         name: "Perfect for non-residence",
       },
       {
-        icon: <BsCheck />,
+        // icon: <BsCheck />,
         name: "Acces to all classes",
       },
       {
-        icon: <BsCheck />,
+        // icon: <BsCheck />,
         name: "Acces to all mentors",
       },
     ],
     buttonText: "Book now",
-    buttonIcon: <BsChevronRight />,
+    // buttonIcon: <BsChevronRight />,
     delay: "900",
   },
 ];
