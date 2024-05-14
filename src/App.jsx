@@ -14,6 +14,7 @@ function App() {
       <Hero />
       <Cards />
       <Facts />
+      <Features />
       <div className="h-[2000px]"></div>
     </div>
   );

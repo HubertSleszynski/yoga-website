@@ -50,6 +50,7 @@ export const cards = {
   img1: CardImage1,
   img2: CardImage2,
   img3: CardImage3,
+  anchorText: "Read More",
 };
 
 export const facts = [
@@ -82,6 +83,14 @@ export const facts = [
     desc: "Yoga is a physical, mental and spritual practice discipline. We provide 24+ classes monthly.",
   },
 ];
+
+export const features = {
+  title1: "The Better Way to",
+  title2: "Start Yoga",
+  description:
+    "Practice anywhere, anytime. Explore a new way to exercise and learn more about yourself. We are providing the best.",
+  btnText: "Get started",
+};
 
 export const courses = [
   {

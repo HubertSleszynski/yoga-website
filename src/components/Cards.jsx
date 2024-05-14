@@ -42,7 +42,7 @@ const Cards = () => {
               href="#"
               className="text-xs lg:text-sm font-bold uppercase text-heading"
             >
-              Read more
+              {cards.anchorText}
             </a>
           </div>
           <div>

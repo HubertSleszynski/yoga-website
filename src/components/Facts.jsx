@@ -38,7 +38,7 @@ const Facts = () => {
               <img src={Image} alt="" />
             </div>
             <div className="text-lg mb-6 font-bold text-heading">
-              John Cena{" "}
+              John Cena
               <span className="text-base text-paragraph font-normal">
                 /Founder
               </span>
