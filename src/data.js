@@ -8,6 +8,10 @@ import CourseImage3 from "../src/assets/img/courses/course-3.png";
 
 import HeroImage from "../src/assets/img/hero/guy.png";
 
+import CardImage1 from "../src/assets/img/cards/card-1.png";
+import CardImage2 from "../src/assets/img/cards/card-2.png";
+import CardImage3 from "../src/assets/img/cards/card-3.png";
+
 export const heroData = {
   description:
     " Yoga is a way of life, rather than a chore. Counteract the stresses of modern life by becoming more mindful and compassionate.",
@@ -36,6 +40,17 @@ export const navigation = [
     href: "#",
   },
 ];
+
+export const cards = {
+  heading1: "Make Your Own Plan For Yoga.",
+  heading2: "Find a Yoga Mentor For You.",
+  heading3: "Every-Day Open Master Classes.",
+  description:
+    "We're boosting online yoga by enabling anyone in the world to learn from the best",
+  img1: CardImage1,
+  img2: CardImage2,
+  img3: CardImage3,
+};
 
 export const facts = [
   {
