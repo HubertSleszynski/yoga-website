@@ -16,6 +16,7 @@ function App() {
       <Facts />
       <Features />
       <Courses />
+      <Pricing />
       <div className="h-[2000px]"></div>
     </div>
   );

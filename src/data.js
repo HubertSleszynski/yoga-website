@@ -120,72 +120,62 @@ export const pricing = [
   {
     title: "Single yoga class",
     price: "$15.",
+    subtitle: "Discover Your Favorite Class!",
+
     list: [
       {
-        // icon: <BsCheck />,
         name: "Pay as you go",
       },
       {
-        // icon: <BsCheck />,
         name: "Perfect for non-residence",
       },
       {
-        // icon: <BsCheck />,
-        name: "Acces to all classes",
+        name: "Access to all classes",
       },
     ],
     buttonText: "Book now",
-    // buttonIcon: <BsChevronRight />,
     delay: "600",
   },
   {
     title: "Single yoga class",
     price: "$60.",
+    subtitle: "Uncover Your Ideal Course!",
     list: [
       {
-        // icon: <BsCheck />,
         name: "Pay as you go",
       },
       {
-        // icon: <BsCheck />,
         name: "Perfect for non-residence",
       },
       {
-        // icon: <BsCheck />,
-        name: "Acces to all classes",
+        name: "Access to best classes",
       },
       {
-        // icon: <BsCheck />,
-        name: "Acces to all mentors",
+        name: "Access to new mentors",
       },
     ],
     buttonText: "Book now",
-    // buttonIcon: <BsChevronRight />,
     delay: "800",
   },
   {
     title: "Single yoga class",
     price: "$150.",
+    subtitle: "Explore Classes You Love!",
     list: [
       {
-        // icon: <BsCheck />,
         name: "Pay as you go",
       },
       {
-        // icon: <BsCheck />,
         name: "Perfect for non-residence",
       },
       {
-        // icon: <BsCheck />,
-        name: "Acces to all classes",
+        name: "Access to all classes",
       },
       {
-        // icon: <BsCheck />,
-        name: "Acces to all mentors",
+        name: "Access to all mentors",
       },
     ],
     buttonText: "Book now",
-    // buttonIcon: <BsChevronRight />,
     delay: "900",
   },
 ];
