@@ -10,8 +10,18 @@ const Pricing = () => {
     <section className="section-sm lg:section-lg bg-section">
       <div className="container mx-auto">
         <div className="text-center mb-7 lg:mb-[70px]">
-          <h2 className="h2 mb-3 lg:mb-[18px]">Pick a Pricing Plan</h2>
-          <p className="max-w-[398px] mx-auto">
+          <h2
+            className="h2 mb-3 lg:mb-[18px]"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
+            Pick a Pricing Plan
+          </h2>
+          <p
+            className="max-w-[398px] mx-auto"
+            data-aos="fade-up"
+            data-aos-delay="700"
+          >
             Pick a pricing plan and get started your journey with us for
             building your body and mind
           </p>
@@ -24,6 +34,8 @@ const Pricing = () => {
                 onClick={() => setIndex(currentIndex)}
                 className="bg-white w-full max-w-[368px] min-h-[668px] h-full cursor-pointer relative"
                 key={currentIndex}
+                data-aos="fade-up"
+                data-aos-delay={delay}
               >
                 <div
                   className={`${

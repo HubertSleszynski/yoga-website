@@ -6,7 +6,7 @@ import { FaYoutube, FaInstagram, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="pb-[70px]">
+    <footer className="pb-[70px]" data-aos="fade-up">
       <div className="container mx-auto">
         <div className="flex flex-col justify-between items-center lg:flex-row gap-y-5">
           <a href="#">

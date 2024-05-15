@@ -9,8 +9,18 @@ const Courses = () => {
     <section className="section-sm lg:section-lg">
       <div className="container mx-auto">
         <div className="text-center mb-16 lg:mb-32">
-          <h2 className="h2 mb-3 lg:mb-[18px]">Popular Courses</h2>
-          <p className="max-w-[480px] mx-auto">
+          <h2
+            className="h2 mb-3 lg:mb-[18px]"
+            data-aos="fade-down"
+            data-aos-delay="200"
+          >
+            Popular Courses
+          </h2>
+          <p
+            className="max-w-[480px] mx-auto"
+            data-aos="fade-down"
+            data-aos-delay="300"
+          >
             Practice anywhere, anytime. Explore a new way to exercise and learn
             more about yourself. We are providing the best.
           </p>
@@ -22,6 +32,8 @@ const Courses = () => {
               <div
                 className="w-full bg-white hover:shadow-primary max-w-[368px] px-[18px] pb-[26px] lg:px-[28px] lg:pb-[38px] flex flex-col rounded-[14px] mx-auto transition hover:cursor-pointer"
                 key={index}
+                data-aos="fade-up"
+                data-aos-delay={delay}
               >
                 <div className="-mt-[38px] lg:-mt-12 mb-4 lg:mb-6">
                   <img src={image} alt="" />
@@ -49,7 +61,13 @@ const Courses = () => {
           })}
         </div>
         <div className="flex justify-center">
-          <button className="btn btn-sm btn-orange">Browse all</button>
+          <button
+            className="btn btn-sm btn-orange"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
+            Browse all
+          </button>
         </div>
       </div>
     </section>

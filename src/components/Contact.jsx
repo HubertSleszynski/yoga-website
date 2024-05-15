@@ -38,8 +38,15 @@ const Contact = () => {
   return (
     <section className="section-sm lg:pt-[250px]">
       <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row lg:gap-x-[74px] bg-contact bg-no-repeat bg-cover min-h-[600px]">
-          <div className="flex-1 flex flex-col justify-center pl-8">
+        <div
+          className="flex flex-col lg:flex-row lg:gap-x-[74px] bg-contact bg-no-repeat bg-cover min-h-[600px]"
+          data-aos="zoom"
+        >
+          <div
+            className="flex-1 flex flex-col justify-center pl-8"
+            data-aos="fade-down"
+            data-aos-delay="300"
+          >
             <h2 className="h2 mb-3 lg:mb-7">
               Get in Touch With Us for Yoga Course.
             </h2>
@@ -52,6 +59,8 @@ const Contact = () => {
             onSubmit={e => sendEmail(e)}
             ref={form}
             className="bg-white flex-1 shadow-primary rounded-[20px] p-5 lg:p-10 flex flex-col gap-y-5 max-h-[600px] lg:-mt-20"
+            data-aos="fade-up"
+            data-aos-delay="300"
           >
             <input
               className="form-control"

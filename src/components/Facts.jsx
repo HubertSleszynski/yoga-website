@@ -31,13 +31,21 @@ const Facts = () => {
         </div>
         <div className="flex-1 -order-1 lg:order-none">
           <div className="flex flex-col justify-center h-full lg:pl-[100px]">
-            <h2 className="h2 mb-12 max-w-[295px] md:max-w-none">
+            <h2
+              className="h2 mb-12 max-w-[295px] md:max-w-none"
+              data-aos="fade-down"
+              data-aos-delay="300"
+            >
               Relax And Enjoy a Personalized Day Yoga With Us.
             </h2>
-            <div className="mb-2">
+            <div className="mb-2" data-aos="fade-down" data-aos-delay="400">
               <img src={Image} alt="" />
             </div>
-            <div className="text-lg mb-6 font-bold text-heading">
+            <div
+              className="text-lg mb-6 font-bold text-heading"
+              data-aos="fade-down"
+              data-aos-delay="500"
+            >
               John Cena
               <span className="text-base text-paragraph font-normal">
                 /Founder
