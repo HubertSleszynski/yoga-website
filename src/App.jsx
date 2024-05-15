@@ -18,6 +18,7 @@ function App() {
       <Courses />
       <Pricing />
       <Newsletter />
+      <Contact />
       <div className="h-[2000px]"></div>
     </div>
   );
