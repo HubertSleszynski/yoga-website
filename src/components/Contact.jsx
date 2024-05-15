@@ -1,6 +1,40 @@
 import React, { useState, useEffect, useRef } from "react";
 
+import emailjs from "@emailjs/browser";
+
 const Contact = () => {
+  const [emailMessage, setEmailMessage] = useState("");
+  const [emailTextColor, setEmailTextColor] = useState("");
+  const form = useRef();
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setEmailMessage("");
+    }, 3000);
+
+    return () => clearTimeout(timer);
+  }, [emailMessage]);
+
+  const sendEmail = e => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_29ird9i", "template_jc0fe7b", form.current, {
+        publicKey: "pQPKU10wIi06uMH9d",
+      })
+      .then(
+        () => {
+          setEmailMessage("Your email was sent :)");
+          setEmailTextColor("green");
+        },
+        error => {
+          setEmailMessage("Your email was not sent :(");
+          setEmailTextColor("red");
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <section className="section-sm lg:pt-[250px]">
       <div className="container mx-auto">
@@ -14,7 +48,11 @@ const Contact = () => {
               the best and also here to help you to fin your yoga course.
             </p>
           </div>
-          <form className="bg-white flex-1 shadow-primary rounded-[20px] p-5 lg:p-10 flex flex-col gap-y-5 max-h-[600px] lg:-mt-20">
+          <form
+            onSubmit={e => sendEmail(e)}
+            ref={form}
+            className="bg-white flex-1 shadow-primary rounded-[20px] p-5 lg:p-10 flex flex-col gap-y-5 max-h-[600px] lg:-mt-20"
+          >
             <input
               className="form-control"
               placeholder="First name"
@@ -44,6 +82,7 @@ const Contact = () => {
             <button className="btn btn-lg btn-orange" type="submit">
               Send Message
             </button>
+            <p style={{ color: emailTextColor }}>{emailMessage}</p>
           </form>
         </div>
       </div>
