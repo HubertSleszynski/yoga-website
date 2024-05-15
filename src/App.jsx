@@ -19,7 +19,7 @@ function App() {
       <Pricing />
       <Newsletter />
       <Contact />
-      <div className="h-[2000px]"></div>
+      <Footer />
     </div>
   );
 }
