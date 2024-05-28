@@ -1,8 +1,25 @@
-# React + Vite
+# Yola
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The yoga website, built using React and Tailwind, provides company information with a dynamic counter, showcases an inspiring video modal linking to our YouTube channel, and offers an overview of popular courses. Additionally, it features flexible pricing plans, a newsletter signup form, and a contact form.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Yarn Vite React Tailwind
+
+## Demo
+
+LIVE: [Yola](https://hrs-yola.netlify.app/)
+
+## Screenshot
+
+<img src="/src/assets/img/hrs-yola.netlify.app-full-2.png" width="800">
+
+## Author
+
+### Hubert Śleszyński
+
+Portfolio: https://hrs-dev.netlify.app/
+
+Linkedin: https://www.linkedin.com/in/hubertsleszynski/
+
+Github: https://github.com/HubertSleszynski
